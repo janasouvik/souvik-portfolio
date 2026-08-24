@@ -2,9 +2,6 @@
 
 A sleek, responsive, and fully animated **personal portfolio website** built using **React.js** and **Tailwind CSS**. Showcasing my projects, skills, and background as a Computer Science Engineering student and full-stack developer.
 
-## 🚀 Live Demo
-
-🔗 [View Portfolio Live](https://souvik-portfolio.vercel.app/)
 
 ## 🛠️ Tech Stack
 
