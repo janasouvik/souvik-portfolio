@@ -1,16 +1,16 @@
-# 🌐 Animated Portfolio Website
+# 🌐 Souvik Jana — Personal Portfolio
 
-A sleek, responsive, and fully customizable **animated portfolio website** built using **React.js** and **Tailwind CSS**. This project gained **27K+ views** on [YouTube]([https://youtube.com/your-video-link](https://youtu.be/ypSc8HEurGQ?si=yI3GJCye3sAKoemW)) – loved by developers and students for its modern design and clean code.
+A sleek, responsive, and fully animated **personal portfolio website** built using **React.js** and **Tailwind CSS**. Showcasing my projects, skills, and background as a Computer Science Engineering student and full-stack developer.
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](https://tarunkaushik.vercel.app/)
+🔗 [View Portfolio Live](https://souvik-portfolio.vercel.app/)
 
 ## 🛠️ Tech Stack
 
 - ⚛️ React.js
 - 🎨 Tailwind CSS
-- 💾 Vercel(for deployment)
+- 💾 Vercel (for deployment)
 
 ## 📁 Features
 
@@ -18,17 +18,16 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 - Smooth scroll and animation effects ✨
 - Clean and modular React components 🧩
 - Easy to customize with Tailwind utility classes 🎯
-- Professional sections: About, Skills, Projects, Contact, etc. 👨‍💻
-
+- Professional sections: About, Skills, Projects, Education, Contact 👨‍💻
 
 ## 🧑‍💻 How to Use
 
 ### 1. Clone the Repo
 
 ```bash
-git clone [https://github.com/codingmastr/Tarun-s-Portfolio.git]
-cd your-repo-name
-````
+git clone https://github.com/janasouvik/souvik-portfolio.git
+cd souvik-portfolio
+```
 
 ### 2. Install Dependencies
 
@@ -39,7 +38,7 @@ npm install
 ### 3. Run the App
 
 ```bash
-npm start
+npm run dev
 ```
 
 ### 4. Build for Production
@@ -48,12 +47,10 @@ npm start
 npm run build
 ```
 
-## 📹 YouTube Tutorial
+## 🌟 About Me
 
-Watch the full build on YouTube:
-📺 [React Portfolio Website - 27K+ Views](https://youtu.be/ypSc8HEurGQ?si=winjJhc9qzNrCqLD)
+I'm a Computer Science Engineering student at AMC Engineering College, Bengaluru. I build full-stack web apps with the MERN stack, design clean REST APIs, and integrate machine learning models with Python and FastAPI.
 
-## 🌟 Credits
-
-This project was created with ❤️ by [Tarun Kaushik](https://tarunkaushik.vercel.app/).
-If you like it, feel free to ⭐ this repository and share!
+- 📧 janasouvikk@gmail.com
+- 💼 [LinkedIn](https://linkedin.com/in/janasouvik)
+- 🐙 [GitHub](https://github.com/janasouvik)

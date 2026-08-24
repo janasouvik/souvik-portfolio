@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Personal / planning files
+my_photo/
+prd.md
+dist.zip

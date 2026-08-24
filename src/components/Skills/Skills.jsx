@@ -2,11 +2,12 @@
 import React from "react";
 import { SkillsInfo } from "../../constants";
 import Tilt from "react-parallax-tilt";
+import Container from "../Container/Container";
 
 const Skills = () => (
-  <section
+  <Container
     id="skills"
-    className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom"
+    className="py-24 pb-24 font-sans bg-skills-gradient clip-path-custom"
   >
     {/* Section Title */}
     <div className="text-center mb-8">
@@ -60,7 +61,7 @@ const Skills = () => (
         </div>
       ))}
     </div>
-  </section>
+  </Container>
 );
 
 export default Skills;

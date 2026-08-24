@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Container from "../Container/Container";
 
 const Contact = () => {
   const form = useRef();
@@ -47,9 +48,9 @@ const Contact = () => {
   };
 
   return (
-    <section
+    <Container
       id="contact"
-      className="flex flex-col items-center justify-center py-24 px-[12vw] md:px-[7vw] lg:px-[20vw]"
+      className="flex flex-col items-center justify-center py-24"
     >
       {/* Toast Container */}
       <ToastContainer />
@@ -108,7 +109,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-    </section>
+    </Container>
   );
 };
 
