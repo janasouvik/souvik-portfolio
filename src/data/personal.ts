@@ -16,7 +16,7 @@ export const personalInfo = {
   email: "",
   phone: "",
   resume: "/resume/Souvik-Jana-Resume.pdf",
-  profileImage: "/images/profile/profile-placeholder.png",
+  profileImage: "/images/profile/profile.jpg",
 };
 
 export const statistics = [

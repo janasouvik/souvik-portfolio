@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Souvik Jana — Personal Portfolio
 
-## Getting Started
+A production-quality developer portfolio built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React, React Icons
+- **Forms:** React Hook Form + Zod
+- **Email:** Resend (optional)
+
+## 📁 Project Structure
+
+```
+src/
+├── app/           # Next.js App Router pages
+│   ├── page.tsx           # Home
+│   ├── services/page.tsx  # Services
+│   ├── resume/page.tsx    # Resume
+│   ├── work/page.tsx      # Projects
+│   ├── contact/page.tsx   # Contact
+│   └── api/contact/route.ts  # Contact API
+├── components/
+│   ├── layout/    # Header, navigation
+│   └── home/      # Hero section
+├── data/          # Centralized content
+│   ├── personal.ts  # ← Edit your info here
+│   ├── projects.ts
+│   ├── services.ts
+│   ├── skills.ts
+│   └── resume.ts
+└── types/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## ✏️ Personalizing
 
-To learn more about Next.js, take a look at the following resources:
+All personal information lives in `src/data/personal.ts`. Edit that file to update:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Name, role, bio
+- GitHub, LinkedIn, email links
+- Resume PDF path
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Add your resume PDF to `public/resume/Souvik-Jana-Resume.pdf`.
 
-## Deploy on Vercel
+Add your profile photo to `public/images/profile/profile-placeholder.png`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📧 Contact Form
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The contact form works without backend configuration (submissions are logged to the console).
+
+To enable email delivery:
+
+1. Create an account at [resend.com](https://resend.com)
+2. Copy `.env.example` to `.env.local`
+3. Set `RESEND_API_KEY` and `CONTACT_EMAIL`
+
+## 🏗️ Build
+
+```bash
+npm run build
+npm start
+```
